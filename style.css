@@ -7,10 +7,6 @@
     --font-card-color : hsl(0, 0%, 90%);
     --font-main-style : "Oswald", "Helvetica", "Arial", sans-serif;
     scroll-behavior: smooth;
-    /* 10.54px */ 
-    /* 17.2 px */
-    /* 57.97  = 5.5*/
-    /* 55.38 */
 }
 
 *,
@@ -40,7 +36,6 @@ a{
 
 .header-container{
     margin: 4em 0;
-    /* margin-top: 0; */
 }
 
 .nav-bar{
@@ -128,8 +123,6 @@ a{
     display: flex;
 }
 .side-nav img{
-    /* width: 100%;
-    height: 100%; */
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -254,7 +247,6 @@ main p{
     margin: 0 auto;
     margin-bottom: 5.3em;
     max-width: 30em;
-    /* text-align: center; */
 }
 .card > img{
     width: 7.694em;
@@ -290,13 +282,7 @@ main p{
     color: var(--font-card-color);
     margin: 0;
     margin-top: 2.5em;
-    /* margin-bottom: 0.398em; */
     margin-bottom: 0;
-
-    /* 21.999
-    15.81
-    3.0945
-    4.195 */
 }
 .card > .detail{
     margin: 0;
@@ -304,8 +290,6 @@ main p{
     font-size: 1.138rem;
     margin-top: 0.398em;
     color: var(--font-card-color);
-    /* 11.99
-    1.90 */
 }
 
 .card > .amount{
@@ -314,13 +298,8 @@ main p{
     font-size: 1.707rem;
     color: var(--font-card-color);
     margin-top: 0.647em;
-    /* 17.99 */
-    /* 1.09 */
-    /* 11.64 */
-
 }
 .rating-container{
-    /* 12.7 */
     margin: 1.204em 0;
 }
 
@@ -355,11 +334,6 @@ main p{
     margin-top: 1.087em;
     text-align: center;
     border-bottom: 1px solid rgba(0,0,0,0.19);
-    /* 
-    57.97
-    15.81
-    21.08
-    */
 }
 .about-container img{
     width: 100%;
@@ -373,12 +347,6 @@ main p{
     font-size: 3.795em;
     font-weight: 500;
     margin: 0.381em 0;
-    
-     /* 
-    39.999
-    15.81
-    12.09
-    */
 }
 .about-container p{
     margin: 0;
@@ -388,11 +356,6 @@ main p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.30em;
     margin-bottom: 1.994em;
-    /* 
-    12.995
-    15.81
-    1.407
-    */
 }
 .founder{
     font-weight: bold;
@@ -407,18 +370,13 @@ main p{
 .contact-us-container > .adress {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 5rem;
 }
 .adress-one{
     font-size: 1.518em;
     font-weight: 400;
     margin: 1.702em 0;
-       /* 
-    15.999
-    15.81
-    0.094
-    */ 
 }
 .adress-one h3, .adress-one p{
     margin: 0;
@@ -485,15 +443,11 @@ input[type=submit]{
     font-size: 1.518rem;
     font-family: Arial, Helvetica, sans-serif;
     transition: all 0.3s ease;
-
-    /* 15.999
-        15.81
-    */
 }
 
 .social-links{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2.129em;
     margin-bottom: 2.051em;
 }
@@ -639,7 +593,6 @@ input[type=submit]{
     }
 
     .btn{
-        /* 29.24 */
         padding: 0.273em 0.845em;
         border-radius: 10px;
     }
@@ -693,23 +646,16 @@ input[type=submit]{
     .menu-icon-container svg:hover{
         fill : var(--font-card-color);
     }
+    .social-links{
+        justify-content: center;
+    }
+    .contact-us-container > .adress{
+        justify-content: center;
+    }
 }
 
 
 
-
-
-
-
-/* 
-
-.card-container{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-*/
 
 
 
