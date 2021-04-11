@@ -33,18 +33,6 @@ arrowContainer.addEventListener('click', ()=>{
     document.body.scrollTop = 0;
 })
 
-// rating star
-
-let star = document.querySelectorAll('.star');
-
-for(let i = 0; i < star; i++){
-    star[i].addEventListener('click', ()=>{
-        console.log(e.target);
-        star[i].classList.toggle('rated-color');
-        // star[i].style.fill = "orange";
-    })
-}
-
 // search bar 
 
 let searchIcon = document.querySelector('.search-icon');
@@ -57,7 +45,7 @@ searchIcon.addEventListener('click', ()=>{
 
 window.addEventListener('click', (e)=>{
     let searchBox = document.querySelector('.search-box');
-    if(e.target != searchIcon && e.target != searchImg){
+    if(e.target != searchIcon && e.target != searchImg && e.target != searchBox){
         searchBox.classList.remove('active');
     }
 });
