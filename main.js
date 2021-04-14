@@ -37,6 +37,8 @@ arrowContainer.addEventListener('click', ()=>{
 
 let searchIcon = document.querySelector('.search-icon');
 let searchImg = document.querySelector('.search-icon-img');
+let ham = document.querySelector('.ham-container');
+
 
 searchIcon.addEventListener('click', ()=>{
     let searchBox = document.querySelector('.search-box');
