@@ -90,7 +90,7 @@ a{
 }
 .search-box{
     position: absolute;
-    top: 3.5em;
+    top: 3.8em;
     right: 0;
     height: 2em;
     border-radius: 0.5em;
@@ -449,8 +449,10 @@ input[type=submit]{
 .social-links{
     display: flex;
     justify-content: center;
-    gap: 2.129em;
     margin-bottom: 2.051em;
+}
+.social-links a + a{
+    margin-left: 2.129em;
 }
 
 .social-links  img{
@@ -497,7 +499,7 @@ input[type=submit]{
     .search-box{
         width: 15em;
         height: 2.5em;
-        top: 4.2em;
+        top: 5em;
         right: 0;
     }
 
